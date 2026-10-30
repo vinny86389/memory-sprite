@@ -2,7 +2,12 @@
 
 为 DSH 提供“插件记忆”和“环境记忆”的演示插件。
 
-当前版本是 **Demo**：先验证设置页、插件清单读取、快照保存和本地记忆库，不执行恢复，也不修改系统环境。
+当前版本：**v0.1.0 Demo**。先验证设置页、插件清单读取、快照保存和本地记忆库，不执行恢复，也不修改系统环境。
+
+- [需求文档](docs/REQUIREMENTS.md)
+- [版本路线](docs/ROADMAP.md)
+- [技术决策](docs/DECISIONS.md)
+- [更新日志](CHANGELOG.md)
 
 ## 当前能力
 
@@ -43,6 +48,8 @@ client.js           Client 侧：设置页
 cordis.patch.yml    Bundle patch
 locale/             插件显示名称和描述
 icon.svg            插件图标
+docs/               需求、路线图、技术决策
+CHANGELOG.md        版本变更记录
 ```
 
 ## 安装

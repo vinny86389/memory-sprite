@@ -4,6 +4,14 @@
   "private": true,
   "type": "module",
   "description": "Memory Sprite demo: plugin and environment memory for DSH",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinny86389/memory-sprite.git"
+  },
+  "homepage": "https://github.com/vinny86389/memory-sprite",
+  "bugs": {
+    "url": "https://github.com/vinny86389/memory-sprite/issues"
+  },
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",
